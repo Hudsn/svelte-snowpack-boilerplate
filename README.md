@@ -1,8 +1,10 @@
 # New Project
 
 > ✨ Bootstrapped with Create Snowpack App (CSA).
+
 > ✨ Modified to get started with a basic svelte app and SCSS
-> ❗❗ Not perfect, some things (mainly preprocessor) may not work as expected; this project was created to learn the basics of snowpack and svelte.
+
+> ❗❗ Some things (mainly preprocessor) may not work as expected; this project was created to learn the basics of snowpack and svelte.
 
 ## Available Scripts
 
