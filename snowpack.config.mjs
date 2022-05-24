@@ -1,11 +1,17 @@
 /** @type {import("snowpack").SnowpackUserConfig } */
 export default {
   mount: {
-    public:'/',
-    src:'/static'
+    public: "/",
+    src: "/static",
   },
   plugins: [
-    '@snowpack/plugin-svelte',
+    "@snowpack/plugin-svelte",
+    [
+      "@snowpack/plugin-run-script",
+      {
+        cmd: "eslint src --ext .js,.jsx,.ts,.tsx,.svelte",
+      },
+    ],
   ],
   routes: [
     /* Enable an SPA Fallback in development: */
